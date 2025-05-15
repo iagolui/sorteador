@@ -13,14 +13,7 @@ function sortear(){
         return;
       }
 
-    let sorteados = [];
-    let numero;
-    
-    for (let i = 0; i < quantidade; i++){
-        numero = obterNumeroAleatorio(de, ate);
-        while(sorteados.includes(numero)){
-            numero = obterNumeroAleatorio(de, ate);
-            alert('Tentando obter número inédito');
+   
         }
         sorteados.push(numero);
     }
